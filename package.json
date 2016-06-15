@@ -1,0 +1,29 @@
+{
+  "name": "aip-demo-webdriver.io",
+  "version": "1.0.0",
+  "description": "This is an integration testing framework developed for a demo for AIP using Webdriver.io.",
+  "main": "wdio.conf.js wdio.conf.bs.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js .\\node_modules\\.bin\\wdio.conf.bs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyuchen81/aip-demo-webdriver.io.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "aip"
+  ],
+  "author": "XinHe <xin.he@ingenta.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyuchen81/aip-demo-webdriver.io/issues"
+  },
+  "homepage": "https://github.com/heyuchen81/aip-demo-webdriver.io#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^0.10.4",
+    "wdio-cucumber-framework": "^0.1.0",
+    "webdriverio": "^4.0.9"
+  }
+}
